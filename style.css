@@ -1,0 +1,133 @@
+header{
+    border: 1px solid black;
+    background-color: black;
+    height: 30px;
+}
+
+ul{
+    float: left;
+    color: white;
+}
+ul li{
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    left: 250%;
+    width: 100px;
+    gap: 10px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+h5 {
+    margin: 3px;
+    color: white;
+    margin: 7px 12px;
+    position: relative;
+    left: -18%;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+}
+h5 a{
+    text-decoration: darkred;
+    color: red;
+}
+
+article{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+ol{
+    float: left;
+}
+
+ol li{
+    float: left;
+    width: 90px;
+    position: relative;
+    left: 200%;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    position: relative;
+    left: -40%;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+h2 a{
+    text-decoration: none;
+    color: black;
+}
+font{
+    color: red;
+}
+
+main img {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    width: 450px;
+}
+p{
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    width: 400px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    position: absolute;
+    left: 20%;
+
+  }
+  
+  .grid img {
+    width: 100%;
+  }
+
+ol li a:hover{
+    border-bottom: 4px solid red;
+}
+ul li a:hover{
+    border-bottom: 2px solid red;
+}
+
+h5 a:hover{
+    border-bottom: 2px solid white;
+}
+
+h2 a:hover{
+    border-bottom: 4px solid red;
+}
